@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -7,8 +7,9 @@
 
 body {
     background: #000;
-    color:white
+    color: white;
 }
+
 .header {
     width: 100%;
     height: 100vh;
@@ -19,7 +20,7 @@ body {
     position: relative;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,7 +35,7 @@ nav{
 nav button {
     border: 0;
     outline: 0;
-    background:#db0001;
+    background: #db0001;
     color: #fff;
     padding: 7px 20px;
     font-size: 12px;
@@ -45,10 +46,10 @@ nav button {
 
 .language-btn {
     display: inline-flex;
-    align-items: cneter;
+    align-items: center;
     background: transparent;
-    border:1px solid #fff;
-    padding: 7px 10px
+    border: 1px solid #fff;
+    padding: 7px 10px;
 }
 
 .language-btn img {
@@ -59,7 +60,7 @@ nav button {
 .header-content {
     position: absolute;
     top: 50%;
-    left:50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     margin-top: 100px;
@@ -70,13 +71,50 @@ nav button {
     line-height: 70px;
     font-weight: 600;
     max-width: 650px;
+    margin: auto;
 }
 
 .header-content h3 {
     font-weight: 400;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.header-content p {
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
 .email-signup {
-    
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.email-signup input {
+    padding: 15px 20px;
+    width: 350px;
+    max-width: 100%;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.email-signup button {
+    padding: 15px 20px;
+    background: #e50914;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.email-signup button:hover {
+    background: #f40612;
 }
